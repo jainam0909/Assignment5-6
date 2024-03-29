@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <!-- css loading -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- header section start -->
+    <header>
+    <h1>US Dollar to Canadian Dollar</h1>
+    <br>
+    <h2>Convert USD TO CAD at the real exchange rate</h2>
+    </header>
+   <!--  header section end -->
+<!--    main section start -->
+    <section class="converter-container">
+        <div class="currency-box">
+            <label for="amount">Amount</label>
+            <input type="text" id="amount" class="currency-value" />
+            <img src="us.png" alt="US Flag" width="30" /> USD
+        </div>
+        <div style="margin: 20px;">
+            <p>&#x21C6;</p>
+        </div>
+        <div class="currency-box">
+            <label for="converted">Converted To</label>
+            <input type="text" id="converted" class="currency-value" />
+            <img src="canada.png" alt="Canadian Flag" width="30" /> CAD
+        </div>
+    </section>
+   <!--  main section end -->
+    <center><button class="convert-button">Convert</button></center>
+   <!--  js loading -->
+    <script src="index.js"></script>
+</body>
+</html>

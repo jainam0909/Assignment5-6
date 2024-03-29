@@ -1,0 +1,43 @@
+  /* style for body*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* style for header*/
+  
+header {
+    background-color: #1c4b7a;
+    color: #fff;
+    height: 160px;
+    padding-top: 45px;
+    padding-left: 40px;
+}
+ /* style for converter container box */
+.converter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ /* style for currenncy box */
+.currency-box {
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+}
+ /* style for currenncy box label*/
+.currency-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* style for currency button */
+.convert-button {
+    padding: 10px 40px; 
+    border-radius: 30px; 
+    border: none; 
+    background-color: #1c4b7a; 
+    color: white; 
+    font-size: 16px; 
+}
+
